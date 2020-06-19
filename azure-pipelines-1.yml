@@ -23,3 +23,6 @@ steps:
     dockerfilePath: 'Dockerfile'
     monitorOnBuild: true
     failOnIssues: false
+- task: owaspzap@1
+  inputs:
+    aggressivemode: true
